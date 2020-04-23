@@ -1,0 +1,353 @@
+body{
+background: url(https://i.pinimg.com/originals/64/a1/87/64a18796916c91db8679091309aa6b8b.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #EAEEEF;
+margin: 0px;
+
+
+}
+
+.font350 {
+font-size: 3.5em !important;
+
+}
+
+.font300{
+font-size: 3em;
+
+}
+
+.font250{
+font-size: 2.5em !important;
+
+
+}
+.font50{
+font-size: 0.5em;
+}
+.font100{
+    font-size: 1.0em;
+}
+
+.cinza{
+    color:#CBCCCD;
+}
+.horizontal > li{
+
+    display: inline-block;
+    margin: 0px 5px;
+
+    
+    }
+    .horizontal{
+
+    margin: 0px;
+    padding: 0px;
+    color:dingre;
+    }
+
+    .ativo{
+   color:white ;
+    }
+
+   .grande{
+       font-size: 200% !important;
+   }
+    
+
+    .subtitulo{
+        font-family: 'Open Sans Condensed', sans-serif;
+        
+
+    }
+    .centro{
+        text-align: center;
+    }
+
+.chamada{
+
+    background: url(./spider-man.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+
+
+}
+.area_chamada{
+    margin: auto;
+    margin-bottom: 300px;
+    text-align: center;
+}
+h2{
+margin: 0px;
+
+}
+
+.titulo{
+    
+    font-family: 'Oswald'sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-weight: 100;
+    text-shadow:3px 3px 0px rgba(0, 0, 0, 8) ;
+
+
+}
+
+
+
+.parte_superior{
+width: 100;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+}
+.logo > img{
+width: 130px;
+
+
+}
+
+.miniaturas{
+margin-top: -300px;
+padding: 0px 4%;
+
+}
+.figuras, .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+figure{
+    margin: 5px;
+}
+figcaption{
+    
+    width: 156px;
+    height: 231px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -236px;
+    
+}
+#mg{
+    width: 156px;
+    height: 231px;
+    
+    }
+figure > img{
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s linear;
+  
+}
+
+figure > img:hover{
+    opacity: 0.2;
+}
+
+/** nova seção posts */
+
+.lateral{
+    
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.posts{
+    margin: 50px 4% 0 4% ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone{
+color: darkgray;
+margin-left: 5px;
+margin-right: 15px;
+
+}
+
+.options{
+    margin-left: 15px;
+
+}
+
+.options > div{
+    font-size: 150% !important;
+    color: darkgray;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+article{
+    display: flex;
+    margin-bottom: 60px;
+
+
+}
+iframe{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0,5);
+}
+
+form{
+    margin-right: 5px;
+}
+form > input{
+    width: 290px;
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 6px 0px 0px 6px;
+}
+button{
+    font-size: 105%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -4px;
+    background-color: #337ab7;
+    color: white;
+    width: 60px;
+    margin: 0p auto;
+  
+}
+button:hover{
+    cursor: pointer;
+}
+.link{
+    color: inherit;
+    text-decoration: none;
+
+}
+.banner_lateral{
+margin: 40px auto;
+
+}
+.rodape{
+padding: 25px;
+color: white;
+font-size: 1.5em;
+}
+.rodape{
+    margin-right: 40px;
+}
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+li .link:hover{
+    text-decoration: underline;
+}
+.link:hover{
+color: white;
+}
+.player{
+    background-color: red;
+    display: flex;
+    position: fixed;
+    z-index: 0;
+   
+
+
+}
+
+.player > iframe{
+    width: 100vw;
+    height: 100vh;
+  
+
+}
+
+.movie_info{
+    position: relative;
+    
+z-index: 1;
+}
+
+.area_info{
+display: flex;
+margin: 37vh 2% 7px 2%;
+
+height: 600px;
+
+
+}
+
+.cartaz_detalhe{
+width: 156px;
+height: 100%;
+
+
+}
+
+.trailer_detalhe{
+width: 100%;
+height: 100%;
+background-color: blue;
+
+}
+
+.titulo_detalhe{
+width: 100%;
+height: 250px;
+background-color: pink;
+
+}
+
+.trailer_detalhe{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.corpo_artigo{
+    display: flex;
+
+
+}
+.lateral_detalhe{
+width: 600px;
+height: 300px;
+background-color: purple;
+
+}
+
+    
+.texto_artigo{
+width: 100%;
+height: 500px;
+background-color: orange;
+
+}
+.star{
+    margin: 8px 0px;
+    text-align: center;
+}
+
+.star > li{
+    font-size: 1.4px !important;
+margin: 0px 2px;
+}
+
+.nome{
+    top: 0;
+    position: absolute;
+
+color: #000;
+
+
+}
+
